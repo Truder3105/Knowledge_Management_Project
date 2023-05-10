@@ -1,0 +1,7 @@
+Este es un archivo XML que define una vista de la interfaz de usuario en Android. Esta vista se utiliza en la actividad "PostActivity".
+
+La vista en sí es un diseño de Linear Layout con varias subvistas. En el primer Linear Layout, se encuentra un TextView y un EditText para que el usuario ingrese su peso en kilogramos. En el segundo Linear Layout, hay otro TextView y un EditText para que el usuario ingrese su objetivo. En el tercer Linear Layout, se encuentra un Spinner, que se utiliza para seleccionar una opción de una lista de divisiones. Finalmente, hay un botón para publicar o enviar la información recopilada.
+
+Cada subvista tiene varios atributos que se establecen para darle un estilo y funcionalidad específicos. Por ejemplo, los atributos "android:layout_width" y "android:layout_height" se utilizan para establecer el ancho y alto de cada subvista. Los atributos "android:padding" se utilizan para agregar espacio entre el contenido y el borde de una subvista. Los atributos "android:inputType" se utilizan para especificar el tipo de entrada que se espera en un EditText.
+
+En resumen, este archivo XML define una vista de la interfaz de usuario con campos para que el usuario ingrese información relacionada con el peso y el objetivo, y un botón para publicar o enviar esta información.

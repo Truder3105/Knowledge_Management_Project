@@ -1,0 +1,9 @@
+Este código es un archivo de diseño XML de una actividad de Android que utiliza una vista de desplazamiento (ScrollView) para mostrar contenido verticalmente en la pantalla.
+
+El diseño se compone de dos elementos principales:
+
+Un LinearLayout que contiene los elementos de la interfaz de usuario. Este LinearLayout tiene orientación vertical y se ajusta al ancho de la pantalla.
+La vista de desplazamiento ScrollView, que envuelve al LinearLayout para permitir que el usuario pueda desplazarse hacia abajo para ver todo el contenido.
+Dentro del LinearLayout hay cuatro TextViews que contienen información acerca de la aplicación. Cada TextView tiene un estilo y formato similar con un borde (background), tamaño de texto (textSize) y padding (padding). El primer TextView contiene el título principal "Quiénes somos y en qué consiste nuestra App". Los siguientes dos TextViews proporcionan información adicional sobre la aplicación y los requisitos para usarla. El último TextView contiene información específica para los usuarios masculinos de la aplicación.
+
+En general, este archivo de diseño define una pantalla que presenta información acerca de una aplicación con un estilo visual uniforme y legible.
