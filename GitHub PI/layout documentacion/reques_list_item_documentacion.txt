@@ -1,0 +1,9 @@
+Este código define una vista de perfil de usuario en una aplicación de Android.
+
+La vista de perfil está contenida dentro de un RelativeLayout, que se ajusta a la pantalla completa en su ancho, pero su altura se ajusta automáticamente para contener todo el contenido dentro de él.
+
+El perfil en sí mismo es una vista LinearLayout que contiene una imagen de perfil (ImageView) y varias vistas TextView para mostrar información sobre el usuario, como su nombre, contacto, correo electrónico, fecha de inicio en la aplicación y el número total de entrenamientos realizados. La vista de perfil tiene un fondo personalizado definido en el archivo drawable llamado "color_app".
+
+La imagen de perfil y los TextView están contenidos en un segundo LinearLayout que está anidado dentro del LinearLayout anterior. Los TextView se organizan en tres LinearLayout anidados más pequeños, cada uno con orientación horizontal.
+
+La información de perfil se muestra en una estructura de tabla con etiquetas y valores que están en una disposición horizontal. El valor de los TextView para nombre, contacto y correo electrónico está escrito en el archivo de diseño, mientras que los valores de fecha de inicio y entrenamientos se establecen programáticamente en el código.

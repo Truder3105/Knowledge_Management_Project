@@ -1,0 +1,17 @@
+Este es un archivo XML que define el diseño de una pantalla de la aplicación de Android. Está basado en un RelativeLayout y tiene una serie de elementos dentro de él. Estos elementos son los siguientes:
+
+TextView con el id "ShowInfo" que tiene una visibilidad de "gone" (no se muestra) y ocupa todo el ancho de la pantalla pero solo el espacio necesario en la altura.
+
+LinearLayout con el id "donorAchiev" que es un contenedor de elementos en forma vertical y tiene un ancho que ocupa toda la pantalla y un alto que se adapta al contenido. Dentro de este LinearLayout hay varios elementos:
+
+TextView con el id "donateInfo" que muestra un texto centrado y tiene un fondo de color negro y una forma de botón. También tiene un color de texto blanco y un padding de 10dp. Se sitúa en el centro de la pantalla horizontalmente.
+
+LinearLayout con el id "yesnolayout" que contiene dos botones, uno con el id "btnYes" y otro sin id que muestran los textos "SI" y "No" respectivamente. Este LinearLayout está situado debajo del TextView anterior y se centra horizontalmente.
+
+TextView con el id "nextDonate" que muestra un texto que indica el tiempo. Tiene un fondo de color oscuro y una forma de círculo. Este elemento está situado en el centro de la pantalla horizontalmente y está oculto.
+
+LinearLayout que contiene dos elementos TextView centrados horizontalmente. Cada uno de ellos tiene un título ("Total horas" y "Total entrenamientos") y un valor que se rellenará posteriormente mediante programación. Este LinearLayout está situado debajo del LinearLayout anterior y se centra horizontalmente.
+
+ImageView con el id "imageView" que muestra una imagen de entrenamiento. Está situado debajo del LinearLayout "donorAchiev" y se centra horizontalmente en la pantalla.
+
+Button con el id "button" que muestra un texto "Continuar". Está situado debajo de la ImageView y se centra horizontalmente.
